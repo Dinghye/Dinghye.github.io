@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
   align: right
@@ -27,7 +27,6 @@ latest_posts:
 ---
 
 I am a PhD student in Geography & Geographic Information Science at the [University of Illinois Urbana-Champaign(UIUC)](https://illinois.edu) under the guidance of [Prof.Shaowen Wang](https://ggis.illinois.edu/directory/profile/shaowen). I am currently a research assistant at the CyberGIS Center for Advanced Digital and Spatial Studies.
-My research focuses on large language models, machine learning, continual learning, and applications in spatial analysis, remote sensing, etc. 
+My research focuses on large language models, machine learning, continual learning, and applications in spatial analysis, remote sensing, etc.
 
-Before joining UIUC for my PhD, I earned my Bachelor’s(Geographic Information Science) and Master’s degree(Survey and Mapping) from [Central South University](https://en.csu.edu.cn), where I conducted research on *Open world high-resolution remote sensing image scene classification based on memory mechanism* under the guidance of [Prof. Haifeng Li](https://scholar.google.com/citations?hl=en&user=51p_SJAAAAAJ). 
-
+Before joining UIUC for my PhD, I earned my Bachelor’s(Geographic Information Science) and Master’s degree(Survey and Mapping) from [Central South University](https://en.csu.edu.cn), where I conducted research on _Open world high-resolution remote sensing image scene classification based on memory mechanism_ under the guidance of [Prof. Haifeng Li](https://scholar.google.com/citations?hl=en&user=51p_SJAAAAAJ).
