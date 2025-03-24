@@ -10,8 +10,10 @@
   pages={1--14},
   year={2022},
   publisher={IEEE},
+  html={https://ieeexplore.ieee.org/document/9826803},
   preview={scn.jpg},
-  selected={true}
+  selected={true},
+  abstract={To infer unknown remote sensing scenarios, most existing technologies use a supervised learning paradigm to train deep neural network (DNN) models on closed datasets. This paradigm faces challenges such as highly spatiotemporal variants and ever-changing scale-heterogeneous remote sensing scenarios. Additionally, DNN models cannot scale to new scenarios. Lifelong learning is an effective solution to these problems. Current lifelong learning approaches focus on overcoming the catastrophic forgetting issue (i.e., a successive increase in heterogeneous remote sensing scenes causes models to forget historical scenes) while ignoring the knowledge recall issue (i.e., how to facilitate the learning of new scenes by recalling historical experiences), which is a significant problem. This article proposes a lifelong learning framework called asymmetric collaborative network (SCN) for lifelong remote sensing image (RSI) classification. This framework consists of two structurally distinct networks: a preserving network (Pres-Net) and a transient network (Trans-Net), which imitate the long- and short-term memory processes in the brain, respectively. Moreover, this framework is based on two synergistic knowledge transfer mechanisms: triple distillation and prior feature fusion. The triple distillation mechanism enables knowledge persistence from Trans-Net to Pres-Net to achieve better memorization; the prior feature fusion mechanism enables knowledge transfer from Pres-Net to Trans-Net to achieve better recall. Experiments on three open datasets demonstrate the effectiveness of SCN for three-, six-, and nine-task-length learning. The idea of asymmetric separation networks and the synergistic strategy proposed in this article are expected to provide new solutions to the translatability of the classification of RSIs in real-world scenarios. The source codes are available at https://github.com/GeoX-Lab/SCN.}
 }
 
 
@@ -23,7 +25,9 @@
   year={2023},
   publisher={IEEE},
   preview={cmn.jpg},
-  selected={true}
+  selected={true},
+  html={https://ieeexplore.ieee.org/document/10197260},
+  abstract={Learning from a sequence of tasks for a lifetime is essential for an agent toward artificial general intelligence. Despite the explosion of this research field in recent years, most work focuses on the well-known catastrophic forgetting issue. In contrast, this work aims to explore knowledge-transferable lifelong learning without storing historical data and significant additional computational overhead. We demonstrate that existing data-free frameworks, including regularization-based single-network and structure-based multinetwork frameworks, face a fundamental issue of lifelong learning, named anterograde forgetting, i.e., preserving and transferring memory may inhibit the learning of new knowledge. We attribute it to the fact that the learning network capacity decreases while memorizing historical knowledge and conceptual confusion between the irrelevant old knowledge and the current task. Inspired by the complementary learning theory in neuroscience, we endow artificial neural networks with the ability to continuously learn without forgetting while recalling historical knowledge to facilitate learning new knowledge. Specifically, this work proposes a general framework named cycle memory networks (CMNs). The CMN consists of two individual memory networks to store short- and long-term memories separately to avoid capacity shrinkage and a transfer cell between them. It enables knowledge transfer from the long-term to the short-term memory network to mitigate conceptual confusion. In addition, the memory consolidation mechanism integrates short-term knowledge into the long-term memory network for knowledge accumulation. We demonstrate that the CMN can effectively address the anterograde forgetting on several task-related, task-conflict, class-incremental, and cross-domain benchmarks. Furthermore, we provide extensive ablation studies to verify each framework component. The source codes are available at: https://github.com/GeoX-Lab/CMN.}
 }
 
 @article{guo2024obsum,
@@ -34,7 +38,9 @@
   pages={114046},
   year={2024},
   publisher={Elsevier},
-  preview={obsum.jpg}
+  preview={obsum.jpg},
+  html={https://www.sciencedirect.com/science/article/pii/S0034425724000579},
+  abstract={Spatiotemporal fusion aims to improve both the spatial and temporal resolution of remote sensing images, thus facilitating time-series analysis at a fine spatial scale. However, there are several important issues that limit the application of current spatiotemporal fusion methods. First, most spatiotemporal fusion methods are based on pixel-level computation, which neglects the valuable shape information of ground objects. Moreover, many existing methods cannot accurately retrieve strong temporal changes between the available high-resolution image at base date and the predicted one. This study proposes an Object-Based Spatial Unmixing Model (OBSUM), which incorporates object-based image analysis and spatial unmixing, to overcome the two abovementioned problems. OBSUM consists of one preprocessing step and three fusion steps, i.e., object-level unmixing, object-level residual compensation, and pixel-level residual compensation. The performance of OBSUM was compared with seven representative spatiotemporal fusion methods at two agricultural sites. The experimental results demonstrated that OBSUM outperformed other methods in terms of both accuracy indices and visual effects over time-series. Furthermore, OBSUM also achieved satisfactory results in crop progress monitoring and crop mapping. Therefore, it has great potential to generate accurate and high-resolution time-series observations for supporting various remote sensing applications.}
 }
 
 
@@ -46,7 +52,9 @@
   pages={1--5},
   year={2023},
   publisher={IEEE},
-  preview={prompt.jpg}
+  preview={prompt.jpg},
+  html={https://ieeexplore.ieee.org/document/10304174},
+  abstract={Overcoming catastrophic forgetting is a key difficulty for remote sensing image (RSI) classification in open-world applications. The core of this problem lies in the ability of RSI scene classification models to adapt to the changing environment and maintain the learned knowledge while continually learning new knowledge. Mainstream replay-based approaches overcome catastrophic forgetting by reenacting and retracing past experiences in the process of learning new data. However, such approaches rely heavily on the storage of historical data, and the recent rise of new paradigms based on prompt learning offers a new perspective of using only task-related “instructions” (i.e., prompts) to guide the model’s continual learning and reasoning. Therein, the task knowledge encoded by the prompt improves the model’s ability to overcome forgetting while reducing the amount of data and model parameters required by traditional data-driven approaches. Therefore, we propose a continual learning method based on prompt learning for RSI classification. We systematically analyze and reveal the potential of prompt learning for continual learning of RSI classification. Experiments on three publicly available remote sensing datasets show that prompt learning significantly outperforms two comparable methods on 3, 6, and 9 tasks, with an average accuracy (ACC) improvement of approximately 43\%. Performance improvements of 4\%–6\% were achieved when compared with advanced prototype network methods. We found that prompt-generation strategies and prompt-related components significantly affect performance: (1) prompt-generation strategies are strongly correlated with the model’s performance in overcoming catastrophic forgetting; (2) prompt-related components are correlated with RSIs of different scales. The new paradigm of prompt learning potentially provides a new idea for the continual learning problem of RSI classification.}
 }
 
 @article{ye2024adaptive,
@@ -56,5 +64,7 @@
   year={2024},
   publisher={IEEE},
   preview={ms.jpg},
-  selected={true}
+  html={https://ieeexplore.ieee.org/abstract/document/10741575},
+  selected={true},
+  abstract={Effective feature representation is pivotal in numerous remote sensing image (RSI) interpretation tasks. Notably, a distinct attribute of RSIs is their inclination toward multiscale feature dependence. Previous research predominantly focuses on designing intricate and complex networks or modules to encapsulate rich multiscale features. However, these approaches compromise on either the model’s compactness or its representational efficacy, thereby constraining the practical deployment of remote sensing technologies, particularly in limited-capacity environments like small-scale devices or on-orbit satellites. In this study, we explore the problem of how to augment the diversity of encoded features while avoiding heavy parameter scale growth in deep convolutional neural networks (CNNs). We proposed an adaptive multiscale framework RISV which presents two key features: 1) rich scale information: during training, RISV decomposes each convolutional layer into various-sized convolutions, extracting multiscale characteristics; and 2) small model volume: RISV incorporates a differentiable elect layer after each convolutional layer, adaptively calculating and polarizing channel importance during learning. After training, the added convolution kernel and the significant channels selected by the elect layer will be linearly equivalent merged, minimizing the impact of pruning on the model’s feature extraction capability. Different from traditional model slimming, it focused on a slimmed-down network while enhancing the representation of multiscale features in RSIs. Versatile and adaptable across various model frameworks like VGG and ResNet. Experimental results demonstrate that our methodology not only preserves accuracy across standard skeletal frameworks but also attains a compression ratio exceeding 80\%, surpassing the baseline by an average of 40\%. Furthermore, the application of GradCAM on the NWPU dataset reveals our method’s proficiency in acquiring detailed and accurate subject information from RSIs. The source code can be available at https://github.com/GeoX-Lab/RISV.}
 }
