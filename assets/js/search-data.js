@@ -63,15 +63,26 @@ ninja.data = [{
             window.location.href = "/blog/2023/jupyter-notebook/";
           
         },
-      },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
+      },{id: "post-historical-trend-of-philosophy",
         
-          title: "a post with table of contents on a sidebar",
+          title: "Historical Trend of Philosophy",
         
         description: "an example of a blog post with table of contents on a sidebar",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2023/sidebar-table-of-contents/";
+          
+        },
+      },{id: "post-michel-fouault",
+        
+          title: "Michel Fouault",
+        
+        description: "MichelFouault2",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/MichelFoucault/";
           
         },
       },{id: "post-a-post-with-videos",
