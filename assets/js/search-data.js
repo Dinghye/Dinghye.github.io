@@ -74,17 +74,6 @@ ninja.data = [{
             window.location.href = "/blog/2023/sidebar-table-of-contents/";
           
         },
-      },{id: "post-michel-fouault",
-        
-          title: "Michel Fouault",
-        
-        description: "MichelFouault2",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/MichelFoucault/";
-          
-        },
       },{id: "post-a-post-with-videos",
         
           title: "a post with videos",
@@ -128,6 +117,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-looking-forward-to-attending-nextgen-day-and-the-imageomics-all-hands-meeting-april-16-18-2025-in-columbus-oh",
           title: 'Looking forward to attending NextGen Day and the Imageomics All-hands meeting. April 16-18,...',
+          description: "",
+          section: "News",},{id: "news-i-ll-be-attending-the-amazing-i-guide-forum-2025-geospatial-ai-and-innovation-for-sustainability-solutions-june-17-19-2025",
+          title: 'I’ll be attending the amazing I-GUIDE Forum 2025 Geospatial AI and Innovation for...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
