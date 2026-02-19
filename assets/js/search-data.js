@@ -106,7 +106,7 @@ ninja.data = [{
           section: "News",},{id: "news-exciting-news-our-paper-sfnet-fusion-of-spatial-and-frequency-domain-features-for-remote-sensing-image-forgery-detection-has-been-officially-accepted-for-publication-in-the-ieee-journal-of-selected-topics-in-applied-earth-observations-and-remote-sensing-jstars-as-a-regular-paper-oct-13-2025",
           title: '🎉 Exciting News! Our paper “SFNet: Fusion of Spatial and Frequency-Domain Features for...',
           description: "",
-          section: "News",},{id: "news-i-will-present-our-current-project-any-model-any-place-any-time-get-remote-sensing-foundation-model-embeddings-on-demand-rs-embed-https-github-com-dinghye-rs-embed-at-the-aag-2026-in-symposium-on-spatial-ai-and-data-science-frontiers-and-applications-spatial-representation-learning-feel-free-to-stop-by-and-chat-happy-to-discuss-ideas-and-potential-collaborations",
+          section: "News",},{id: "news-i-will-present-our-current-project-any-model-any-place-any-time-get-remote-sensing-foundation-model-embeddings-on-demand-rs-embed-at-the-aag-2026-in-symposium-on-spatial-ai-and-data-science-frontiers-and-applications-spatial-representation-learning-feel-free-to-stop-by-and-chat-happy-to-discuss-ideas-and-potential-collaborations",
           title: 'I will present our current project, Any Model, Any Place, Any Time: Get...',
           description: "",
           section: "News",},{id: "projects-project-1",
