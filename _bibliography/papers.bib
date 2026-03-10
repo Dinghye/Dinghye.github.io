@@ -82,3 +82,31 @@
   html= {https://ieeexplore.ieee.org/abstract/document/11202694},
   abstract={The rapid advancement of generative artificial intelligence is producing fake remote sensing imagery (RSI) that is increasingly difficult to detect, potentially leading to erroneous intelligence, fake news, and even conspiracy theories. Existing forgery detection methods typically rely on single visual features to capture predefined artifacts, such as spatial-domain cues to detect forged objects like roads or buildings in RSI, or frequency-domain features to identify artifacts from upsampling operations in adversarial generative networks (GANs). However, the nature of artifacts can significantly differ depending on geographic terrain, land cover types, or specific features within the RSI. Moreover, these complex artifacts evolve as generative models become more sophisticated. In short, overreliance on a single visual cue makes existing forgery detectors struggle to generalize across diverse remote sensing data. This article proposed a novel forgery detection framework called SFNet, designed to identify fake images in diverse remote sensing data by leveraging spatial and frequency domain features. Specifically, to obtain rich and comprehensive visual information, SFNet employs two independent feature extractors to capture spatial and frequency domain features from input RSIs. To fully utilize the complementary domain features, the domain feature mapping module and the hybrid domain feature refinement module of SFNet are designed to successively align and fuse the multidomain features while suppressing redundant information. Experiments on three datasets show that SFNet achieves an accuracy improvement of 4\%–15.18\% over the state-of-the-art RS forgery detection methods and exhibits robust generalization capabilities.}
 }
+
+
+@article{ye2026modelplacetimeremote,
+      title={Any Model, Any Place, Any Time: Get Remote Sensing Foundation Model Embeddings On Demand}, 
+      author={Ye, Dingqi and Kiv, Daniel  and Hu, Wei  and Shi, Jimeng  and Wang, Shaowen},
+      year={2026},
+      eprint={2602.23678},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      preview={rsembed.png},
+      selected={true},
+      html={https://arxiv.org/abs/2602.23678}, 
+      abstract={The remote sensing community is witnessing a rapid growth of foundation models, which provide powerful embeddings for a wide range of downstream tasks. However, practical adoption and fair comparison remain challenging due to substantial heterogeneity in model release formats, platforms and interfaces, and input data specifications. These inconsistencies significantly increase the cost of obtaining, using, and benchmarking embeddings across models. To address this issue, we propose rs-embed, a Python library that offers a unified, region of interst (ROI) centric interface: with a single line of code, users can retrieve embeddings from any supported model for any location and any time range. The library also provides efficient batch processing to enable large-scale embedding generation and evaluation. The code is available at: https:// github.com/ cybergis/ rs-embed}
+}
+
+
+@article{shi2026multicube,
+  title={MultiCube-RAG for Multi-hop Question Answering},
+  author={Shi, Jimeng and Hu, Wei and Tian, Runchu and Jin, Bowen and Kweon, Wonbin and Kang, SeongKu and Kang, Yunfan and Ye, Dingqi and Zhou, Sizhe and Wang, Shaowen and others},
+  journal={arXiv preprint arXiv:2602.15898},
+  year={2026},
+  html={https://arxiv.org/abs/2602.15898},
+  preview={cube.png},
+  abstract={Multi-hop question answering (QA) necessitates multi-step reasoning and retrieval across interconnected subjects, attributes, and relations. Existing retrieval-augmented generation (RAG) methods struggle to capture these structural semantics accurately, resulting in suboptimal performance. Graph-based RAGs structure such information in graphs, but the resulting graphs are often noisy and computationally expensive. Moreover, most methods rely on single-step retrieval, neglecting the need for multi-hop reasoning processes. Recent training-based approaches attempt to incentivize the large language models (LLMs) for iterative reasoning and retrieval, but their training processes are prone to unstable convergence and high computational overhead. To address these limitations, we devise an ontology-based cube structure with multiple and orthogonal dimensions to model structural subjects, attributes, and relations. Built on the cube structure, we propose MultiCube-RAG, a training-free method consisting of multiple cubes for multi-step reasoning and retrieval. Each cube specializes in modeling a class of subjects, so that MultiCube-RAG flexibly selects the most suitable cubes to acquire the relevant knowledge precisely. To enhance the query-based reasoning and retrieval, our method decomposes a complex multi-hop query into a set of simple subqueries along cube dimensions and conquers each of them sequentially. Experiments on four multi-hop QA datasets show that MultiCube-RAG improves response accuracy by 8.9\% over the average performance of various baselines. Notably, we also demonstrate that our method performs with greater efficiency and inherent explainability.}
+  
+}
+
+
