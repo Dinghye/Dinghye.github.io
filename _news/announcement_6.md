@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I'm starting an internship at [LGND](https://lgnd.ai)! I'm excited to join the LGND team and look forward to new challenges and learning opportunities. 🎉
+I'm starting an internship at [LGND AI, INC.](https://lgnd.ai)! I'm excited to join the LGND team and look forward to new challenges and learning opportunities. 🎉
