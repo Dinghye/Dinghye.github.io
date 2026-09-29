@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-repositories",
+          title: "repositories",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/repositories/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "",
@@ -111,6 +118,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-i-m-starting-an-internship-at-lgnd-ai-inc-i-m-excited-to-join-the-lgnd-team-and-look-forward-to-new-challenges-and-learning-opportunities",
           title: 'I’m starting an internship at LGND AI, INC.! I’m excited to join the...',
+          description: "",
+          section: "News",},{id: "news-our-team-attention-plzzz-from-uiuc-won-4th-place-in-the-geoai-challenge-reaching-new-heights-with-geofm-organized-by-esa-φ-lab-with-itu-and-ai-for-good-many-thanks-to-my-amazing-teammates",
+          title: 'Our team Attention_Plzzz from UIUC won 4th place in the GeoAI Challenge: Reaching...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
