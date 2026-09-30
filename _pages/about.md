@@ -28,3 +28,5 @@ My research focuses on remote sensing foundation models, remote sensing, large l
 
 Before joining UIUC for my PhD, I earned my Bachelor’s(Geographic Information Science) and Master’s degree(Survey and Mapping) from [Central South University](https://en.csu.edu.cn), where I conducted research on _Open world high-resolution remote sensing image scene classification based on memory mechanism_ under the guidance of [Prof. Haifeng Li](https://scholar.google.com/citations?hl=en&user=51p_SJAAAAAJ).
 
+
+Outside of research, I love music and play in a band. You can find some of our videos on [Bilibili](https://space.bilibili.com/355808640), and listen to our music, including our EP _环形废墟_, on [NetEase Cloud Music](https://music.163.com/#/artist?id=52340360).
